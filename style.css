@@ -6,6 +6,9 @@ body {
   font-family: "The Farmer Original";
   src: url("THE SMALL TOWN.otf") format("opentype");
 }
+::placeholder {
+  color: #bcbcbc;
+}
 
 .fm_1 {
   font-family: "The Farmer Original", sans-serif;
@@ -15,6 +18,10 @@ body {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   letter-spacing: 0.2em;
+}
+.fm_3 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
 }
 .grad {
   background-image: linear-gradient(to right, #404040, #181818);
@@ -107,7 +114,6 @@ body {
 }
 .fs_17 {
   color: white;
-  font-size: 24px;
   font-weight: medium;
   text-transform: uppercase;
   cursor: pointer;
@@ -138,7 +144,7 @@ body {
 }
 
 .line {
-  border-bottom: 1px solid #888;
+  border-bottom: 4px solid #888;
 }
 .bold:hover {
   font-weight: 700;
@@ -177,9 +183,31 @@ body {
   border-color: white;
   display: inline-block;
 }
+.btn_0 {
+  right: 6px;
+  background: transparent;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 40px;
+  line-height: 2.2rem;
+  background-color: #595959;
+}
+
+.btn_7 {
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-size: 40px;
+  line-height: 2.5rem;
+  background-color: #595959;
+}
 .b1 {
   margin-top: -8px;
-
   font-size: 8px;
   cursor: pointer;
 }
@@ -303,6 +331,9 @@ body {
   .hidden_8 {
     display: none;
   }
+  .hidden_10 {
+    display: block;
+  }
   .fs_1 {
     width: auto;
     border: #231f20;
@@ -334,6 +365,9 @@ body {
   .fs_14 {
     font-size: 16px;
     width: auto;
+  }
+  .fs_17 {
+    font-size: 18px;
   }
   .w_3 {
     width: auto;
@@ -370,19 +404,9 @@ body {
     font-size: 12px;
   }
   .w_8 {
-    width: auto;
+    width: 100%;
   }
-  .btn_0 {
-    right: 6px;
-    background: transparent;
-    display: none;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    font-size: 20px;
-    font-family: bold;
-  }
+
   .fs_20 {
     width: auto;
   }
@@ -428,6 +452,9 @@ body {
   .w_10 {
     width: auto;
   }
+  .hidden_9 {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -452,6 +479,12 @@ body {
   }
   .hidden_8 {
     display: none;
+  }
+  .hidden_9 {
+    display: none;
+  }
+  .hidden_10 {
+    display: block;
   }
   .fs {
     font-size: 50px;
@@ -487,6 +520,9 @@ body {
     font-size: 16px;
     width: auto;
   }
+  .fs_17 {
+    font-size: 24px;
+  }
   .w_3 {
     width: auto;
   }
@@ -518,19 +554,9 @@ body {
     width: auto;
   }
   .w_8 {
-    width: auto;
+    width: 100%;
   }
-  .btn_0 {
-    right: 6px;
-    display: none;
-    background: transparent;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    font-size: 20px;
-    font-family: bold;
-  }
+
   .fs_20 {
     width: auto;
   }
@@ -627,6 +653,9 @@ body {
   .hidden_8 {
     display: block;
   }
+  .hidden_10 {
+    display: none;
+  }
   .fs {
     font-size: 40px;
     width: 300px;
@@ -661,6 +690,9 @@ body {
     font-size: 16px;
     width: 522px;
   }
+  .fs_17 {
+    font-size: 24px;
+  }
   .w_3 {
     width: 598px;
   }
@@ -693,18 +725,9 @@ body {
     font-size: 18px;
   }
   .w_8 {
-    width: 300px;
+    width: 327px;
   }
-  .btn_0 {
-    right: 6px;
-    background: transparent;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    font-size: 20px;
-    font-family: bold;
-  }
+
   .fs_20 {
     width: 346px;
   }
@@ -713,6 +736,9 @@ body {
   }
   .hidden_6 {
     display: none;
+  }
+  .hidden_9 {
+    display: block;
   }
   .button {
     cursor: pointer;
@@ -744,10 +770,10 @@ body {
   }
 
   .fs_19 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .fs_20 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .w_10 {
     width: 142px;
@@ -798,6 +824,12 @@ body {
   .hidden_8 {
     display: block;
   }
+  .hidden_9 {
+    display: block;
+  }
+  .hidden_10 {
+    display: none;
+  }
   .bg5 {
     background-color: yellow;
   }
@@ -824,6 +856,9 @@ body {
     font-size: 15px;
     width: 290px;
   }
+  .fs_17 {
+    font-size: 24px;
+  }
   .fs_18 {
     font-size: 18px;
   }
@@ -836,16 +871,7 @@ body {
   .fs_20 {
     width: 346px;
   }
-  .btn_0 {
-    right: 6px;
-    background: transparent;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    font-size: 28px;
-    font-family: bold;
-  }
+
   .button {
     cursor: pointer;
     background: transparent;
@@ -877,7 +903,12 @@ body {
     border-color: #231f20;
     display: inline-block;
   }
-
+  .hidden_9 {
+    display: block;
+  }
+  .hidden_10 {
+    display: none;
+  }
   .fs_19 {
     font-size: 24px;
   }
@@ -917,6 +948,9 @@ body {
   }
   .hidden_8 {
     display: block;
+  }
+  .hidden_10 {
+    display: none;
   }
   .width {
     width: 500px;
@@ -961,6 +995,9 @@ body {
     font-size: 16px;
     width: 522px;
   }
+  .fs_17 {
+    font-size: 24px;
+  }
   .fs_18 {
     font-size: 18px;
   }
@@ -973,21 +1010,15 @@ body {
   .fs_20 {
     width: 346px;
   }
-  .btn_0 {
-    right: 6px;
-    background: transparent;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    font-size: 20px;
-    font-family: bold;
-  }
+
   .hidden_4 {
     display: none;
   }
   .hidden_6 {
     display: none;
+  }
+  .hidden_9 {
+    display: block;
   }
   .b1 {
     margin-top: -8px;
@@ -1064,6 +1095,12 @@ body {
   .fs_20 {
     width: 346px;
   }
+  .hidden_9 {
+    display: block;
+  }
+  .hidden_10 {
+    display: none;
+  }
   .width {
     width: auto;
   }
@@ -1106,16 +1143,6 @@ body {
   }
   .w_8 {
     width: 493px;
-  }
-  .btn_0 {
-    right: 6px;
-    background: transparent;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
-    font-size: 20px;
-    font-family: bold;
   }
 
   .b1 {
