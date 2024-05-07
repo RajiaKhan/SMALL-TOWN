@@ -620,9 +620,6 @@ body {
   .wm_6 {
     width: 150px;
   }
-  .bg5 {
-    background-color: red;
-  }
   .w_1 {
     width: 598px;
   }
@@ -830,9 +827,6 @@ body {
   .hidden_10 {
     display: none;
   }
-  .bg5 {
-    background-color: yellow;
-  }
   .fs {
     font-size: 60px;
     width: 400px;
@@ -967,9 +961,6 @@ body {
   }
   .hidden_4 {
     display: none;
-  }
-  .bg5 {
-    background-color: purple;
   }
   .fs {
     font-size: 80px;
@@ -1121,9 +1112,6 @@ body {
   }
   .width_3 {
     width: auto;
-  }
-  .bg5 {
-    background-color: rgb(0, 128, 32);
   }
   .hidden_6 {
     display: block;
